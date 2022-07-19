@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:black;
+    color: white;
+
+}
+.header{
+    display: flex;
+    
+}
+.div_header{
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#user{
+    width: 200px;
+}
+.links{
+    justify-content: left;
+      align-items: flex-start;
+      background-repeat: no-repeat;
+      width: 100%;
+      margin-top: 10px;
+}
+ul{
+    display: flex;
+    position: absolute;
+    right: 20%;
+}
+li{
+    margin-left: 20px;
+    list-style: none;
+}
+li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+.about, .work, .contact{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.about_content, .work_content, .contact_content{
+    margin-left: 20px;
+    width: 70%;
+    margin-top: 30px;
+    color: white;
+    
+}
+#img_first{
+    width: 100%;
+    height: 200px;
+}
+.img_title{
+    background: green;
+    padding: 10px;
+}
+.other_works{
+    display: flex;
+    flex-flow: wrap;
+}
+.div_work{
+    width: 48%;
+    margin-right: 10px;
+}
+.img_other{
+    width: 100%;
+    height: 200px;
+
+}
+.contact a{
+    color: blue;
+    margin: 20px;
+    font-size: 20px;
+}
+.contact{
+    margin-bottom: 30px;
+    color:green;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contact label{
+    font-size: 20px;
+    font-weight: bold;
+}
+@media screen and (max-width: 760px) {
+    .header{
+        display: block;
+        
+    }
+    .div_header{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+        display: flex;
+    }
+    .div_header h1{
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    #user{
+        width: 100px;
+    }
+    .links{
+        justify-content: left;
+          align-items: flex-start;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          width: 100%;
+          margin-top: 10px;
+          height: 150px;
+    }
+    ul{
+        display: flex;
+        position: relative;
+        background: white;
+        right: 0;
+        padding-bottom: 10px;
+    }
+    li{
+        margin-left: 10px;
+        list-style: none;
+    }
+    .work, .contact{
+        display: block;
+    }
+    .div_work{
+        width: 80%;
+        margin-right: 10px;
+    }
+    .contact a{
+        color: orange;
+        margin: 10px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .contact label{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .contact_content{
+        display: block;
+    }
+}

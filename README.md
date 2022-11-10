@@ -16,6 +16,12 @@ This challenges is the begining stages of building a professional portfolio for 
 
 ![Screenshot](./assets/images/2022-11-10_15-58-39.png)
 
+## Application
+
+Click the link to visit the application
+
+https://lflyew.github.io/Professional-Portfolio/
+
 
 ## Author
 [@LatoyaLyew] (https://github.com/lflyew)

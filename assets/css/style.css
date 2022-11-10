@@ -1,15 +1,148 @@
+/* Universal CSS */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:black;
     color: white;
+    font-family: fantasy;
 
 }
-.header{
+
+body {
+    background-color: black;
+}
+/* Header styling */
+
+header{
     display: flex;
+    align-content: center;
+    justify-content: space-between;
+    color:#ffffff
+
     
 }
+
+.header-flex {
+    padding: 20px;
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+}
+.title {
+    text-align: center;
+    padding: 20px;
+    margin: auto 0;
+    align-items: center;
+
+}
+
+header h2 {
+    font-size: 25px;
+    padding: 5px;
+    font-weight: lighter;
+}
+
+header h1 {
+    font-size: 50px;
+}
+/* nav bar styling */
+.nav {
+    display: flex;
+    margin: auto 0;
+    padding: 10px;
+    align-items: center;
+}
+
+.nav ul {
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: auto;
+    flex-direction: row;
+    margin-bottom: auto;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    font-family: ;
+    list-style-type: none;
+}
+
+.nav li {
+    margin-left: 25px;
+    display: inline-block;
+
+}
+.nav li a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: var(--green);
+}
+/* about styling */
+
+.headshot {
+    height: 320px;
+    width: 450px;
+    border-radius: 10%;
+}
+
+.info {
+    margin-left: 15px;
+}
+
+section p {
+    display: flex;
+    margin: auto 0;
+}
+
+/* section styling */
+section {
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+section h2 {
+    text-align: right;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+section article {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: left;
+    border-left: 5px solid greenyellow;
+}
+
+/* footer styling */
+
+footer {
+    color: white;
+    background-color: darkgreen;
+    padding: 5px;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 2px;
+}
+
+footer h5 {
+    padding-bottom: 2px;
+}
+
+
+
+
+
 .div_header{
     width: 30%;
     margin-top: 20px;
@@ -88,63 +221,20 @@ li a{
     font-size: 20px;
     font-weight: bold;
 }
-@media screen and (max-width: 760px) {
-    .header{
-        display: block;
-        
-    }
-    .div_header{
-        width: 100%;
-        margin-top: 20px;
-        margin-left: 20px;
-        display: flex;
-    }
-    .div_header h1{
-        font-size: 16px;
-        margin-top: 30px;
-    }
-    #user{
-        width: 100px;
-    }
-    .links{
-        justify-content: left;
-          align-items: flex-start;
-          background-size: 100% 100%;
-          background-repeat: no-repeat;
-          width: 100%;
-          margin-top: 10px;
-          height: 150px;
-    }
-    ul{
-        display: flex;
-        position: relative;
-        background: white;
-        right: 0;
-        padding-bottom: 10px;
-    }
-    li{
-        margin-left: 10px;
-        list-style: none;
-    }
-    .work, .contact{
-        display: block;
-    }
-    .div_work{
-        width: 80%;
-        margin-right: 10px;
-    }
-    .contact a{
-        color: orange;
-        margin: 10px;
-        font-size: 20px;
-        text-decoration: none;
-    }
-    
-    .contact label{
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .contact_content{
-        display: block;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

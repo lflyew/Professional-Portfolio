@@ -14,7 +14,7 @@ This challenges is the begining stages of building a professional portfolio for 
 
 ## Screenshot
 
-![Screenshot](./assets/images/snippet.png)
+![Screenshot](./assets/images/2022-11-10_15-58-39.png)
 
 
 ## Author
